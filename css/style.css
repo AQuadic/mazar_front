@@ -200,7 +200,7 @@ html::-webkit-scrollbar-track {
   display: none;
 }
 .navbar {
-  background: #FFFFFFDB;
+  background: #ffffffdb;
 
   width: 100%;
   height: 100px;
@@ -782,34 +782,35 @@ html[dir="ltr"] .house .content {
   }
 }
 /*footer*/
-footer{
+footer {
   padding: 36px 0px 64px;
   background-color: black;
 }
-footer .content{}
-footer .content .part{
+footer .content {
+}
+footer .content .part {
   display: flex;
   justify-content: space-between;
   gap: 22px;
   flex-wrap: wrap;
 }
-footer .content .part .partLogo{
+footer .content .part .partLogo {
   flex: 1;
 }
-footer .content .part .logo{
-width: 286px;
-height: auto;
-display: block;
+footer .content .part .logo {
+  width: 286px;
+  height: auto;
+  display: block;
 }
 
-footer .content .part .logo img{
+footer .content .part .logo img {
   width: 100%;
-height: auto;
+  height: auto;
 }
-footer .content .part .part2{
+footer .content .part .part2 {
   flex: 1;
 }
-footer .content .part .part2 ul{
+footer .content .part .part2 ul {
   margin-bottom: 32px;
   display: flex;
   align-items: center;
@@ -817,82 +818,75 @@ footer .content .part .part2 ul{
   gap: 16px;
   flex-wrap: wrap;
 }
-footer .content .part .part2 ul li{}
-footer .content .part .part2 ul li a{
+footer .content .part .part2 ul li {
+}
+footer .content .part .part2 ul li a {
   font-size: 24px;
   line-height: 44px;
   color: white;
   font-family: "DinB";
-
 }
-footer .content .part .part2 .appFooter{
+footer .content .part .part2 .appFooter {
   display: flex;
   align-items: center;
   gap: 10px;
   justify-content: flex-end;
 }
-footer .content .part .part2 .appFooter a{
+footer .content .part .part2 .appFooter a {
   width: 150px;
   max-width: 100%;
   height: auto;
 }
-footer .content .part .part2 .appFooter a svg{
+footer .content .part .part2 .appFooter a svg {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
-footer .content .copy{
+footer .content .copy {
   margin-top: 28px;
 }
-footer .content .copy p{
+footer .content .copy p {
   text-align: center;
   color: white;
 }
 @media (max-width: 992px) {
   footer .content .part .logo {
     width: 200px;
-    
-}
-footer .content .part .part2 ul li a {
-  font-size: 18px;
-  
-}
-footer .content .part .part2 ul {
-  margin-bottom: 22px;
-  
-  gap: 12px;
+  }
+  footer .content .part .part2 ul li a {
+    font-size: 18px;
+  }
+  footer .content .part .part2 ul {
+    margin-bottom: 22px;
 
-}
+    gap: 12px;
+  }
 }
 @media (max-width: 768px) {
   footer .content .part .logo {
-   margin: auto;
+    margin: auto;
     width: 220px;
-}
-footer .content .part .part2 .appFooter{
-  justify-content: center;
-}
-footer .content .part {
-  
-  gap: 6px;
-
-}
-footer .content .part .part2 ul {
-  margin-bottom: 18px;
-  padding: 0px 10px;
-}
-footer .content .part .part2 .appFooter a {
-  width: 124px;
- 
-}
-footer {
-  padding: 36px 0px 44px;
-  
-}
+  }
+  footer .content .part .part2 .appFooter {
+    justify-content: center;
+  }
+  footer .content .part {
+    gap: 6px;
+  }
+  footer .content .part .part2 ul {
+    margin-bottom: 18px;
+    padding: 0px 10px;
+  }
+  footer .content .part .part2 .appFooter a {
+    width: 124px;
+  }
+  footer {
+    padding: 36px 0px 44px;
+  }
 }
 /*header*/
-.header{
-  background-image: url('../images/backHeader.webp');
+.header {
+  background-image: url("../images/backHeader.webp");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
@@ -903,26 +897,26 @@ footer {
   position: relative;
   overflow: hidden;
 }
-.header::before{
+.header::before {
   position: absolute;
   content: "";
   height: 100%;
   bottom: 0;
   width: 295px;
-  background-image: url('../images/layer2.webp');
+  background-image: url("../images/layer2.webp");
   background-repeat: no-repeat;
   background-position: center;
   left: 0;
 }
-.header .content{
+.header .content {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 100px;
 }
-.header .content .part1{
+.header .content .part1 {
   position: relative;
-flex: 1;
+  flex: 1;
 }
 .header .content .part1 .layer {
   position: absolute;
@@ -930,171 +924,162 @@ flex: 1;
   height: auto;
   top: 42%;
   left: 12%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   max-width: 200%;
   z-index: 1;
 }
-.header .content .part1 .phone{
+.header .content .part1 .phone {
   width: 228px;
   height: auto;
   display: block;
   position: relative;
-    z-index: 5;
+  z-index: 5;
 }
-.header .content .part1 .isolation{
+.header .content .part1 .isolation {
   position: absolute;
   top: -80px;
   left: -100px;
   z-index: 50;
 }
- .header .content .part1 .phone {
+.header .content .part1 .phone {
   margin-right: auto;
 }
-html[dir=ltr] .header .content .part1 .phone {
- 
+html[dir="ltr"] .header .content .part1 .phone {
   margin-right: 0px;
   margin-left: auto;
 }
-.header .content .part2{
+.header .content .part2 {
   max-width: 600px;
   background: #397dc078;
   padding: 16px;
-    border-radius: 8px;
-    flex: 1;
+  border-radius: 8px;
+  flex: 1;
+  position: relative;
+  z-index: 5000;
 }
-.header .content .part2 h2{
+.header .content .part2 h2 {
   color: white;
   font-size: 64px;
   line-height: 76px;
   margin-bottom: 44px;
   font-family: "DinB";
-
 }
-.header .content .part2 h3{
+.header .content .part2 h3 {
   color: white;
   font-family: "DinM";
-font-size: 16px;
-line-height: 22px;
-min-height: 120px;
-max-width: 480px;
+  font-size: 16px;
+  line-height: 22px;
+  min-height: 120px;
+  max-width: 480px;
 }
-.header .content .part2 h4{
+.header .content .part2 h4 {
   color: white;
   font-family: "DinB";
   font-size: 24px;
   line-height: 44px;
-margin-bottom: 6px;
+  margin-bottom: 6px;
 }
-.header .content .part2 ul{
+.header .content .part2 ul {
   display: flex;
   align-items: center;
   gap: 14px;
 }
-.header .content .part2 ul li{}
-.header .content .part2 ul li a{
+.header .content .part2 ul li {
+}
+.header .content .part2 ul li a {
   width: 250px;
   height: auto;
   max-width: 100%;
   display: block;
 }
-.header .content .part2 ul li a svg{
+.header .content .part2 ul li a svg {
   width: 100%;
   height: auto;
   max-width: 100%;
 }
 @media (min-width: 2000px) {
-  .header{
-    background-image: url('../images/backHeader2.webp');
+  .header {
+    background-image: url("../images/backHeader2.webp");
     background-position-x: 96%;
   }
 }
 @media (max-width: 1200px) {
   .header .content {
-  
     gap: 40px;
-}
-.header {
- 
-  background-size: 550px;
-
-}
-.header .content .part2 h2 {
-  font-size: 56px;
-  line-height: 66px;
-  margin-bottom: 30px;
-}
-.header .content .part1 .isolation {
-
-  top: -70px;
-  left: -60px;
-  width: 130px;
-}
+  }
+  .header {
+    background-size: 550px;
+  }
+  .header .content .part2 h2 {
+    font-size: 56px;
+    line-height: 66px;
+    margin-bottom: 30px;
+  }
+  .header .content .part1 .isolation {
+    top: -70px;
+    left: -60px;
+    width: 130px;
+  }
 }
 @media (max-width: 992px) {
   .header .content .part1 .phone {
     width: 180px;
-    
-}
-.header .content .part1 .isolation {
- 
-  top: -48px;
-  left: -44px;
-  width: 106px;
-}
-.header .content .part2 h2 {
-  font-size: 36px;
-  line-height: 50px;
-  margin-bottom: 20px;
-}
-.header .content .part2 h3 {
-  
-  font-size: 14px;
-  line-height: 22px;
-  min-height: 90px;
-}
+  }
+  .header .content .part1 .isolation {
+    top: -48px;
+    left: -44px;
+    width: 106px;
+  }
+  .header .content .part2 h2 {
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .header .content .part2 h3 {
+    font-size: 14px;
+    line-height: 22px;
+    min-height: 90px;
+  }
 }
 @media (max-width: 768px) {
   .header {
-    background-image: none;}
-    .header .content .part2 ul li a{
-      width: 150px;
-    
-    }
-    .header .content .part2 {
-      max-width: 100%;
-      background: transparent;
-     
-      padding: 0;
+    background-image: none;
+  }
+  .header .content .part2 ul li a {
+    width: 150px;
+  }
+  .header .content .part2 {
+    max-width: 100%;
+    background: transparent;
+
+    padding: 0;
   }
   .header .content .part1 .layer {
     top: 50%;
     left: 24%;
     max-width: 225%;
-}
+  }
 }
 @media (max-width: 600px) {
   .header {
-   
     padding: 50px 0px 36px;
+  }
+  .header .content {
+    gap: 54px;
+    flex-direction: column-reverse;
+  }
+  .header .content .part2 h3 {
+    font-size: 14px;
 
-}
-.header .content {
-  gap: 54px;
-  flex-direction: column-reverse;
-}
-.header .content .part2 h3 {
-  font-size: 14px;
-  
-  min-height: auto;
-}
-.header .content .part2 h4 {
-  
-  font-size: 20px;
-  line-height: 40px;
-  margin-bottom: 3px;
-}
-.header .content .part2 h2 {
-  font-size: 30px;
-  line-height: 40px;
-}
+    min-height: auto;
+  }
+  .header .content .part2 h4 {
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 3px;
+  }
+  .header .content .part2 h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
 }
