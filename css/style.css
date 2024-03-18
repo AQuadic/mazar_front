@@ -200,7 +200,7 @@ html::-webkit-scrollbar-track {
   display: none;
 }
 .navbar {
-  background: #ffffffdb;
+  background: #E3EDF6;
 
   width: 100%;
   height: 100px;
@@ -243,7 +243,7 @@ html::-webkit-scrollbar-track {
   line-height: 23px;
   border: none;
   height: 40px;
-  border-radius: 0px;
+  border-radius: 8px;
   padding: 6px 16px;
   width: 130px;
 }
@@ -828,10 +828,10 @@ footer .content .part .part2 ul {
 footer .content .part .part2 ul li {
 }
 footer .content .part .part2 ul li a {
-  font-size: 24px;
+  font-size: 18px;
   line-height: 44px;
   color: white;
-  font-family: "DinB";
+  font-family: "DinL";
 }
 footer .content .part .part2 .appFooter {
   display: flex;
@@ -893,17 +893,23 @@ footer .content .copy p {
 }
 /*header*/
 .header {
-  background-image: url("../images/backHeader.webp");
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: bottom;
-  background-size: 664px;
+
   min-height: 660px;
-  padding: 110px 0px 50px;
   background-color: var(--main_color);
   position: relative;
   overflow: hidden;
 }
+.contentBig{
+max-width: 1500px;
+margin: auto;
+background-image: url("../images/backHeader.webp");
+background-repeat: no-repeat;
+background-position-x: right;
+background-position-y: bottom;
+background-size: 664px;
+padding: 110px 0px 50px;
+}
+
 .header::before {
   position: absolute;
   content: "";
@@ -1004,8 +1010,8 @@ html[dir="ltr"] .header .content .part1 .phone {
   height: auto;
   max-width: 100%;
 }
-@media (min-width: 2000px) {
-  .header {
+@media (min-width: 1500px) {
+  .contentBig {
     background-image: url("../images/backHeader2.webp");
     background-position-x: 96%;
   }
