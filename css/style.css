@@ -780,3 +780,112 @@ html[dir="ltr"] .house .content {
     margin-bottom: 28px;
   }
 }
+/*footer*/
+footer{
+  padding: 36px 0px 64px;
+  background-color: black;
+}
+footer .content{}
+footer .content .part{
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+footer .content .part .partLogo{
+  flex: 1;
+}
+footer .content .part .logo{
+width: 286px;
+height: auto;
+display: block;
+}
+
+footer .content .part .logo img{
+  width: 100%;
+height: auto;
+}
+footer .content .part .part2{
+  flex: 1;
+}
+footer .content .part .part2 ul{
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+footer .content .part .part2 ul li{}
+footer .content .part .part2 ul li a{
+  font-size: 24px;
+  line-height: 44px;
+  color: white;
+  font-family: "DinB";
+
+}
+footer .content .part .part2 .appFooter{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+}
+footer .content .part .part2 .appFooter a{
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+}
+footer .content .part .part2 .appFooter a svg{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+footer .content .copy{
+  margin-top: 28px;
+}
+footer .content .copy p{
+  text-align: center;
+  color: white;
+}
+@media (max-width: 992px) {
+  footer .content .part .logo {
+    width: 200px;
+    
+}
+footer .content .part .part2 ul li a {
+  font-size: 18px;
+  
+}
+footer .content .part .part2 ul {
+  margin-bottom: 22px;
+  
+  gap: 12px;
+
+}
+}
+@media (max-width: 768px) {
+  footer .content .part .logo {
+   margin: auto;
+    width: 220px;
+}
+footer .content .part .part2 .appFooter{
+  justify-content: center;
+}
+footer .content .part {
+  
+  gap: 6px;
+
+}
+footer .content .part .part2 ul {
+  margin-bottom: 18px;
+  padding: 0px 10px;
+}
+footer .content .part .part2 .appFooter a {
+  width: 124px;
+ 
+}
+footer {
+  padding: 36px 0px 44px;
+  
+}
+}
