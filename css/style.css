@@ -953,7 +953,29 @@ padding: 110px 0px 50px;
   top: -80px;
   left: -100px;
   z-index: 50;
+  transform: scale(1)rotate(0deg);
+  animation-name: pupup;
+  animation-duration: 2s
 }
+@keyframes pupup {
+  0% {
+      transform: scale(0)rotate(0deg)
+  }
+
+  18% {
+      transform: scale(0)rotate(0deg)
+  }
+
+  80% {
+      transform: scale(0)rotate(-50deg)
+  }
+
+  100% {
+      transform: scale(1)rotate(0deg)
+  }
+}
+
+
 .header .content .part1 .phone {
   margin-right: auto;
 }
@@ -1096,3 +1118,6 @@ html[dir="ltr"] .header .content .part1 .phone {
     line-height: 40px;
   }
 }
+
+
+
